@@ -238,8 +238,8 @@ Procedure ExportHandler()
     ;   url$ = "http:///winterwood.atwebpages.com/Program?" + url$
     
 ;Use Program hosted with https:// by GitHub instead  
-;    url$ = "https://ron0949.github.io/XYHome/Program/index.html?" + url$
-    url$ = "https://winterwood.org.uk/Program?" + url$
+    url$ = "https://ron0949.github.io/XYHome/Program/index.html?" + url$
+;    url$ = "https://winterwood.org.uk/Program?" + url$
    
     
      
