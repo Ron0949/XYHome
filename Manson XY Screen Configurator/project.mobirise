@@ -1,0 +1,296 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "Screen Configurator-clone",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#998f66",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#2b0680",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#eaf0f1",
+        "#998f66"
+      ]
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 48,
+    "versionPublish": "4.11.4",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-128x128-1.png",
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "siteFonts": [],
+    "cookiesAlert": "",
+    "gdpr": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Screen Configurator",
+        "meta_descr": "home",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "24px",
+              "color": "#998f66",
+              "text-align": "left"
+            },
+            ".mbr-section-text": {
+              "text-align": "left",
+              "color": "#efefef",
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "header2-18",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "showArrow": false,
+            "imageSize": "52",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/shop-1-2000x1081.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.7"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-531x612.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Manson XY Screen Configurator",
+          "text": "The XY touch screen fitted to Manson Guitar Works models was originally designed to interface with the Korg Kaoss Pad. As such it was programmed to generate MIDI Continuous Controller (CC) #12 for the X axis, #13 for the Y axis and #92 to control the Kaoss Pad’s ‘hold’ function via the Hold switch on the guitar. As a bonus, Controllers #11 and #0 were included to control the Digitech Whammy pedal using the Y direction&nbsp;and the Hold switch.<br><br>The screen has been enhanced to provide multi-zone functionality and user progammability to control multi effects units, amp modellers (e.g. Line 6, Axe-Fx, Kemper Profiler etc.) as well as software<br>applications such as Ableton Live, Garage Band etc.<br><br>The configurator screen shot &nbsp;indicates the active areas of the screen divided into three virtual 'buttons' and three virtual 'sliders'.<br>To assign a MIDI CC number to a particular button or slider, first drop down the 'Select MIDI CC Number' box, select the CC number from the list (0-127) then click on the appropriate button or slider.<br>Similarly, the guitar's 'Hold' switch can also be assigned a separate CC number.<br><br>Each 'button' can be assigned two independant CC numbers, one will toggle on and off on alternate presses (latched) while the other will only be active while pressed (momentary). After selecting the CC number from the drop-down box click on either the word 'Toggle' or 'Momentary' on the particular button.<br><br>Please note: the graphics do not appear on the screen, they are for illustration only.<br><br>Click the 'Configure Screen' button below to navigate to the Screen Configurator App where the CC numbers can be assigned.<br><br>See below for full instructions.",
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://winterwood.atwebpages.com/3B3S/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Configure Screen</a> "
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "font-size": "13px",
+              "text-align": "right"
+            }
+          },
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018 Winterwood Design"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "SMALL": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "36px"
+            },
+            "SPAN": {
+              "font-size": "24px",
+              "color": "#000000",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            ".mbr-section-title": {
+              "font-size": "24px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-z",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#eaf0f1"
+          },
+          "title": "Programming the Guitar",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "DIV": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "16px"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "content1-w",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#eaf0f1"
+          },
+          "text": "<p><b>Setting the guitar into 'Program' mode:</b><br></p><p>With the guitar unplugged, connect your USB to MIDI OUT interface to the guitar’s MIDI socket via a Manson MIDI lead adaptor (this is imperative to ensure correct connectivity). To set the guitar into Programming mode, hold down the Hold switch on the guitar and plug in a jack lead to turn it on. The red and blue LEDs under the screen should light, release the Hold switch, the green LED should also illuminate.</p><p><br></p><p>Click the 'Configure Screen' button above to open the Screen Configurator App in a new tab. The MIDI controller numbers can then be assigned to relevant buttons and sliders to suit the target device.</p><div><br></div><div>Clicking the ‘Export MIDI File’ knob in the Screen Configurator App first searches for a suitable MIDI interface attached to the computer then brings up a 'Program Guitar' button overlaid on the screen image. On pressing this button with the guitar in 'Program' mode (see below), the red and blue LEDs should alternate while the App transfers the CC assignments to the guitar.</div><div><br></div><div>A few seconds after transferring the data, a standard MIDI file named '3B3S.mid' will also be sent to your ‘Download’ folder. This can be suitably re-named e.g. Helix 1.mid, Kemper 3.mid etc. to maintain an archive of favourite configurations for your various effects units.</div><div><br></div><div>Remove the jack plug momentarily then re-plug. The screen should operate in its default Kaoss mode.</div><div><br></div><div><b>To select your new configuration:</b></div><div>To change to your new configuration, press and hold the Hold switch for at least three seconds then release. The LEDs will flash rapidly for a few seconds to indicate that the new mode is active.</div><div>To return to the default Kaoss Mode, press and hold the Hold switch again for at least three seconds then release. The LEDs will flash slowly to indicate that the default mode is active.</div><div><br></div><div><b>To re-use an archived configuration:</b></div><div>To re-use an archived configuration, connect the guitar to a suitable MIDI interface via the adaptor lead and set the guitar into 'Program' mode (see above). Open a suitable MIDI sequencer or MIDI file player e.g. Garage Band, MIDI Yodi etc, load the appropriate file and press Play to start the data transfer. On completion, remove the jack plug momentarily then re-plug.&nbsp;</div><p></p>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "18px",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
+            },
+            ".navbar-toggler": {
+              "color": "#c1c1c1"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#c1c1c1"
+            },
+            ".link, .dropdown-item": {
+              "color": "#c1c1c1"
+            },
+            ".link": {
+              "font-size": "0.6rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.650rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#c1c1c1",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#998f66!important"
+            },
+            ".btn": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "16px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-p",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#282828",
+            "fontSize": "0.6",
+            "fontName": {},
+            "fontColor": "#c1c1c1",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/manson-logo-3x-222x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Manson Guitar Works&nbsp;</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"#top\">Home</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#header3-z\">Programming the Guitar</a></li>"
+        }
+      ]
+    }
+  }
+}

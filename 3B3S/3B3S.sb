@@ -235,11 +235,12 @@ Procedure ExportHandler()
     Next
     
     Debug "url length " +Str(Len(url$))
-       url$ = "http:///winterwood.atwebpages.com/Program?" + url$
+    ;   url$ = "http:///winterwood.atwebpages.com/Program?" + url$
     
 ;Use Program hosted with https:// by GitHub instead  
-;    url$ = "https:///ron0949.github.io/XYHome/Program?" + url$
-    
+;    url$ = "https://ron0949.github.io/XYHome/Program/index.html?" + url$
+    url$ = "https://winterwood.org.uk/Program?" + url$
+   
     
      
     Debug url$
@@ -693,8 +694,8 @@ EndProcedure
 
 ;**
 ; IDE Options = SpiderBasic 2.00 (Windows - x86)
-; CursorPosition = 240
-; FirstLine = 212
+; CursorPosition = 247
+; FirstLine = 227
 ; Folding = ---
 ; WebAppName = 3 Buttons 3 Sliders
 ; WebAppIcon = Data\favicon.png
