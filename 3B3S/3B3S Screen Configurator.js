@@ -32,7 +32,7 @@ var _S28="Data\\Ableton.png";
 var _S11="Multi-Function.mid";
 var _S18="Select the Controller Number then click the target slider or button on the 'screen' below";
 var _S6="Slider MIDI Controller Number = ";
-var _S16="http:///winterwood.atwebpages.com/Program?";
+var _S16="https://ron0949.github.io/XYHome/Program/Index.html?";
 var _S10="XY_Screen.mid";
 var _S23="Select the CC number for the Hold switch";
 var _S27="Data\\XY Kaoss.png";
