@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.imagewrap {display:inline-block;position:relative;}
+.button{
+	border: 0px solid black;
+	border-radius: 5px;
+	width: 13.8%;
+	height:5%;
+	outline: none;
+	word-wrap: break-word;
+}
+
+.button:hover {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.button_outline {
+	height: 14%;
+	width: 16%;
+	border: 3px solid black;
+	border-radius: 10px;
+	outline: none;
+}
+/*Button outlines*/
+.button1 {position:absolute;top:10.5%;left:60%;}
+.button2 {position:absolute;top:10.5%;left:32.6%; width: 27%}
+.button3 {position:absolute;top:10.5%;left:16.2%;}
+.export {position:absolute;top:87%;left:50%; height: 6%; width: 45%}
+.hold {position:absolute;top:87%;left:28%; height: 6%; width: 18%}
+
+/*Buttons*/
+.tog1 {position:absolute;top:11.4%;left:61%;}
+.tog2 {position:absolute;top:11.4%;left:34%; width: 24.2%}
+.tog3 {position:absolute;top:11.4%;left:17.3%;}
+.mom1 {position:absolute;top:18.6%;left:61%;}
+.mom2 {position:absolute;top:18.6%;left:34%; width: 24.2%}
+.mom3 {position:absolute;top:18.6%;left:17.3%;}
+.Ccno {position:absolute;top:35%;left:18%;}
+
+/*LED*/
+.image1 {position:absolute;top:4%;left:44.5%; width: 7%; height: 6%; visibility: hidden; } 
+.image2 {position:absolute;top:4%;left:44.5%; width: 7%; height: 6%;}
+
+.deadzone {
+	position:absolute;top:25%;left:16.2%;
+	width: 59.5%; height: 15.5%;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.deadzone:hover {
+	background-color: red;
+	color: white;
+	opacity:0.7;
+}
+
+.slider{
+	border: 3px solid black;
+	border-radius: 10px;
+	width: 16%;
+	height:34%;
+	outline: none;
+}
+
+.slider:hover {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.slider1 {position:absolute;top:41%;left:59.5%;}
+.slider2 {position:absolute;top:41%;left:32.6%; width: 26.5%}
+.slider3 {position:absolute;top:41%;left:16%;}
+
+.MIDIval {
+	position:absolute;top:35%;left:41%;
+	height:2%; width:10%
+
+}
+input.MIDIval, textarea { background: #d1d1d1; }
+)
+
+
+
+</style>
+</head>
+
+<body/>
+<div class="container">
+	<div class="imagewrap">
+		<img src="Front Page cropped with border.jpg">   
+		<input type="button" class="button_outline button1 width40" value="1" />
+		<input type="button" class="button_outline button2" value="2" />
+		<input type="button" class="button_outline button3" value="3" />
+		<input type="button" class="button tog1" value="Tog." onclick="LEDOn()" />
+		<input type="button" class="button tog2" value="Toggle" onclick="LEDOn()" />
+		<input type="button" class="button tog3" value="Tog." onclick="LEDOn()" />
+
+		<input type="button" class="button mom1" value="Mom." onclick="LEDOn()" />
+		<input type="button" class="button mom2" value="Momentary" onclick="LEDOn()" />
+		<input type="button" class="button mom3" value="Mom." onclick="LEDOn()" />
+
+		<input type="button" class="button_outline deadzone"value="Dead Zone / Enter Cc# 0-127 and click target" />
+
+		<input type="button" class="slider slider1" value="Slider 1" onclick="LEDOn()" />
+		<input type="button" class="slider slider2" value="Slider 2" onclick="LEDOn()" />
+		<input type="button" class="slider slider3" value="Slider 3" onclick="LEDOn()" />
+		
+		<input type="button" class="button hold" value="Hold Switch" onclick="LEDOn()" />
+		<input type="button" class="button export" value="Program Guitar/Export MIDI File" onclick="LEDOn()" />
+		
+		<input type="number" class="MIDIval" value="0" min="0" max="127"/>
+		<brk>
+	   <input type="image"  class="image1" src="Green LED.png"; id="greenLEDon"; />
+	   <input type="image"  class="image2" src="LED Off.png"; id="greenLEDoff"/>
+
+	</div>
+</div>
+
+<script>
+	function LEDOn(){
+		greenLEDon.style.visibility= 'visible';
+		greenLEDoff.style.visibility= 'hidden';
+		setTimeout(LEDOff, 400);
+	}
+	
+	function LEDOff(){
+		greenLEDon.style.visibility= 'hidden';
+		greenLEDoff.style.visibility= 'visible';
+	}
+	
+		function Export(){
+		Knobturned.style.visibility= 'visible';
+		setTimeout(acw, 2000);
+	}
+	
+	function acw(){
+		Knobturned.style.visibility= 'hidden';
+	}
+	
+</script>
+
+</body>
+</html>

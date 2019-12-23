@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.imagewrap {display:inline-block;position:relative;}
+.button{
+	border: 0px solid blue;
+	border-radius: 10px;
+	width: 8.8%;
+	height:5.5%;
+	background-color: transparent;
+	outline: none;
+}
+/*
+.button:hover {
+  background-color: #CCCCCC;//#4CAF50;
+  color: white;
+}*/
+
+.button1 {position:absolute;top:32%;left:16.8%;}
+.button2 {position:absolute;top:32%;left:27%; width: 19.4%}
+.button3 {position:absolute;top:32%;left:48%;}
+
+.button4 {position:absolute;top:38%;left:16.8%;}
+.button5 {position:absolute;top:38%;left:27%; width: 19.4%}
+.button6 {position:absolute;top:38%;left:48%;}
+
+.button10 {position:absolute;top:28%;left:78.5%; width: 5.5%; height: 5%; visibility: hidden; } 
+.button11 {position:absolute;top:28%;left:78.5%; width: 5.5%; height: 5%;}
+.button12 {position:absolute;top:76.6%;left:71.3%; width: 15.8%; height: 14.5%; visibility: hidden}
+.button13 {position:absolute;top:76.6%;left:71.3%; width: 15.8%; height: 14.5%;}
+
+.button13{border-radius: 5%;}
+
+
+.slider{
+	border: 0px solid black;
+	border-radius: 10px;
+	width: 8.8%;
+	height:22.5%;
+	background-color: transparent;
+	outline: none;
+
+}
+/*
+.slider:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+*/
+.button7 {position:absolute;top:53.5%;left:16.8%;}
+.button8 {position:absolute;top:53.5%;left:27%; width: 19.4%}
+.button9 {position:absolute;top:53.5%;left:48%;}// width: 13.9%;}
+
+input[type="button"] {
+  font-size: 14px;
+  }
+
+</style>
+</head>
+
+<body/>
+<div class="container">
+	<div class="imagewrap">
+		<img src="Screen 1 - Copy 4a.jpg"> 
+
+	   <input type="button" class="button button1" value="" onclick="LEDOn()" />
+	   <input type="button" class="button button2" value="" onclick="LEDOn()" />
+	   <input type="button" class="button button3" value="" onclick="LEDOn()" />
+	  <brk>
+	   <input type="button" class="button button4" value="" onclick="LEDOn()" />
+	   <input type="button" class="button button5" value="" onclick="LEDOn()" />
+	   <input type="button" class="button button6" value="" onclick="LEDOn()" />
+
+	  <brk>
+	   <input type="button" class="slider button7" value="" onclick="LEDOn()" />
+	   <input type="button" class="slider button8" value="" onclick="LEDOn()" />
+	   <input type="button" class="slider button9" value="" onclick="LEDOn()" />
+	   
+	  <brk>
+	   <input type="image"  class="button button10" src="Green LED.png"; id="greenLEDon"; />
+	   <input type="image"  class="button button11" src="LED Off.png"; id="greenLEDoff"/>
+	   <input type="image"  class="button button12" src="Knob turned 2.png"; id="Knobturned"/>
+	   <input type="button"  class="button button13" onclick="Prog()"id="prog"/>	   
+	   
+	</div>
+</div>
+<script>
+	function LEDOn(){
+		greenLEDon.style.visibility= 'visible';
+		greenLEDoff.style.visibility= 'hidden';
+		setTimeout(LEDOff, 400);
+	}
+	
+	function LEDOff(){
+		greenLEDon.style.visibility= 'hidden';
+		greenLEDoff.style.visibility= 'visible';
+	}
+	
+	function Prog(){
+		Knobturned.style.visibility= 'visible';
+		greenLEDon.style.visibility= 'visible';
+		greenLEDoff.style.visibility= 'hidden';
+		setTimeout(acw, 2000);
+	}
+	
+	function acw(){
+		Knobturned.style.visibility= 'hidden';
+		greenLEDon.style.visibility= 'hidden';
+		greenLEDoff.style.visibility= 'visible';
+	}
+	
+</script>
+
+</body>
+</html>
